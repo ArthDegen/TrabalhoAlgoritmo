@@ -1,16 +1,8 @@
 import java.util.PriorityQueue;
 
-/**
- * Implementação do algoritmo de Prim para encontrar a Árvore Geradora Mínima (AGM)
- * de um grafo. Utiliza uma fila de prioridade para selecionar arestas com menor peso.
- */
+// Implementação do algoritmo de Prim para encontrar a Árvore Geradora Mínima (AGM)
 public class Prim {
-    /**
-     * Encontra a Árvore Geradora Mínima utilizando o algoritmo de Prim.
-     * 
-     * @param grafo O grafo a ser processado.
-     * @return O peso total da Árvore Geradora Mínima.
-     */
+   
     public static int encontrarAGM(Grafo grafo) {
         int pesoTotal = 0;
         boolean[] visitado = new boolean[grafo.getNumVertices()];
