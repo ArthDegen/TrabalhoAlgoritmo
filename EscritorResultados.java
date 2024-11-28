@@ -1,5 +1,3 @@
-package algoritmosgrafos;
-
 import java.io.*;
 import java.util.Arrays;
 
